@@ -5,12 +5,12 @@ Module 17 Challenge Assignment
 This challenge requested that we use “Supervised Machine Learning” techniques to determine the best model to evaluate “Credit Risk” on new loans.  Using a credit card credit dataset from LendingClub, a peer-to-peer lending services company we created several models using both Over & Under sampling algorithms as well as a combined Over/Under algorithm. After training the models we tested the models and measured them for accuracy, created “confusion matrix and imbalanced classification reports to evaluate each model and finalize our conclusion.
 
 We decided on the following popular Machine Learning methods to create our models:
-	Random_Over_Sampler
+	(Random_Over_Sampler
 	SMOTE
 	Cluster_Centroids
 	SMOTEEN
 	Blanced_Random_Forest_Classifier
-	Easy_Ensemble_AdaBoost_Classifier
+	Easy_Ensemble_AdaBoost_Classifier)
 	
 ## Analysis Results:
 Deliverable 1
@@ -25,7 +25,8 @@ Deliverable 1
 
 •	The Imbalanced Classification Report from this model:
 
-![image](https://user-images.githubusercontent.com/95320265/165585788-83206528-e33c-4d88-b82c-953211435d9b.png)
+![image](https://user-images.githubusercontent.com/95320265/165586207-49ad603d-4c8b-4ff8-911c-25ebb29cc36d.png)
+
 
 
 ### Over sampling – SMOTE
