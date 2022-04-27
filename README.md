@@ -6,11 +6,18 @@ This challenge requested that we use “Supervised Machine Learning” technique
 
 We decided on the following popular Machine Learning methods to create our models:
 	(Random_Over_Sampler
+	
 	SMOTE
+	
 	Cluster_Centroids
+	
 	SMOTEEN
+	
 	Blanced_Random_Forest_Classifier
+	
 	Easy_Ensemble_AdaBoost_Classifier)
+	
+	
 	
 ## Analysis Results:
 Deliverable 1
@@ -24,7 +31,6 @@ Deliverable 1
 
 •	The Imbalanced Classification Report from this model:
 ![image](https://user-images.githubusercontent.com/95320265/165586207-49ad603d-4c8b-4ff8-911c-25ebb29cc36d.png)
-
 
 
 ### Over sampling – SMOTE
@@ -59,7 +65,6 @@ Deliverable 2
 
 •	The Confusion Matrix generated from this model:
 ![image](https://user-images.githubusercontent.com/95320265/165587968-966b8c3e-7d70-4b5d-9dd9-afddc71d315b.png)
-![image](https://user-images.githubusercontent.com/95320265/165587335-400dda27-9499-4581-b81a-ab5506559f83.png)
 
 
 Deliverable 3
@@ -72,7 +77,49 @@ Deliverable 3
 ![image](https://user-images.githubusercontent.com/95320265/165587923-61a0b795-ff77-4fc5-b88e-807cae667161.png)
 
 •	The Imbalanced Classification Report from this model:
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/95320265/165588349-3fa39f8a-bdef-4b5d-9e68-4ba06f551650.png)
+
+
+### Ensemble Learners - Easy Ensemble AdaBoost Classifier
+![image](https://user-images.githubusercontent.com/95320265/165588444-26bc4629-3f9f-4695-b2b5-fedb1bf7d053.png)
+
+•	  An accuracy score of the Easy Ensemble AdaBoost Classifier model is 0.9316600714
+
+•	The Confusion Matrix generated from this model:
+![image](https://user-images.githubusercontent.com/95320265/165588518-4bca9917-6027-4c60-b067-5372ff027a9c.png)
+
+•	The Imbalanced Classification Report from this model:
+![image](https://user-images.githubusercontent.com/95320265/165588570-5bf60971-7f51-479a-90a3-d0967ca16642.png)
+
+
+Another request for the challenge was for us to sort the features by importance.  This could allow us to determine if we want to handle features differently based on their importance.  As you can see the “total_rec_prncp” is the most important with an importance score of .078768, which is about 2% points higher than the next most important item. The next few features have minimal differences and several at the bottom have no importance.  We could probably remove this data from our analysis.  Below show the top and bottom five items out of a total of ninety-four features.
+![image](https://user-images.githubusercontent.com/95320265/165588659-9e3e1516-1c79-4dd3-865e-e8ce901fcf36.png)
+
+
+
+## Summary:
+
+Here is a summary table of our six models with their accuracy scores and the Precision, Recall and F1 results from their imbalanced Classification reports:
+![image](https://user-images.githubusercontent.com/95320265/165588794-c60cc361-6f56-4c7f-8b58-a7d87c293f71.png)
+
+Scoring definitions:
+	Accuracy: How many of our predicted scores are correct.
+	
+	Precision: How close our predicted scores are together in a group
+	
+	Recall: Also known as sensitivity and the closer to one the better the score.
+	
+	F1: Is a harmonic mean of the precision and recall scores.
+	
+
+With these definitions the F1 score is probably the best score to evaluate our models. The better the model is at making correct prediction the closer the F1 score is to 1.0.  Given the results above the “Easy Ensemble AdaBoost Classifier” method is significantly better than all the other in evaluating high-risk loans and on average is very close to the 1.0 score across the board, so that would the model we would recommend.
+
+
+
+
+
+
+
 
 
 
