@@ -60,7 +60,7 @@ Deliverable 1
 
 
 Deliverable 2
-### Combination of (Over and Under) Sampling – SMOTEEN
+### Combination of (Over and Under) Sampling – SMOTEENN
 ![image](https://user-images.githubusercontent.com/95320265/165587219-243faf24-775e-4f57-ae41-52fee4beb7b3.png)
 
 •	  An accuracy score of the SMOTEEN model is 0.5441781794
