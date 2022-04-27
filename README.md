@@ -18,6 +18,7 @@ Deliverable 1
 ![image](https://user-images.githubusercontent.com/95320265/165585672-6cea53a7-6a2c-4501-8e30-9aef03767592.png)
 
 •	An accuracy score of the RandomOversampler model is 0.6438627638
+
 •	The Confusion Matrix generated from this model
 ![image](https://user-images.githubusercontent.com/95320265/165585735-1adc5aa2-29fb-463b-b1d2-17c04041abd7.png)
 
@@ -30,6 +31,7 @@ Deliverable 1
 ![image](https://user-images.githubusercontent.com/95320265/165585896-fe56c814-dbfb-4914-8ef9-34f45772ce25.png)
 
 •	An accuracy score of the SMOT model is 0.6438327638
+
 •	The Confusion Matrix generated from this model:
 ![image](https://user-images.githubusercontent.com/95320265/165586398-c4c6fadc-df75-4b16-a26b-6d3eb2fbf59b.png)
 
@@ -41,6 +43,7 @@ Deliverable 1
 ![image](https://user-images.githubusercontent.com/95320265/165586637-b94e0dd6-1e81-48da-9c7a-47bad661bad6.png)
 
 •	An accuracy score of the ClusterCentroids model is 0.6438627638
+
 •	The Confusion Matrix generated from this model
 ![image](https://user-images.githubusercontent.com/95320265/165586992-1580620c-8e4d-4593-b8ad-27bab9683502.png)
 
@@ -53,8 +56,26 @@ Deliverable 2
 ![image](https://user-images.githubusercontent.com/95320265/165587219-243faf24-775e-4f57-ae41-52fee4beb7b3.png)
 
 •	  An accuracy score of the SMOTEEN model is 0.5441781794
+
 •	The Confusion Matrix generated from this model:
+![image](https://user-images.githubusercontent.com/95320265/165587968-966b8c3e-7d70-4b5d-9dd9-afddc71d315b.png)
 ![image](https://user-images.githubusercontent.com/95320265/165587335-400dda27-9499-4581-b81a-ab5506559f83.png)
+
+
+Deliverable 3
+### Ensemble Learners - Balanced Random Forest Classifier
+![image](https://user-images.githubusercontent.com/95320265/165587849-ca8483ba-eb46-48a4-b406-22001f401724.png)
+
+•	An accuracy score of the Balanced Random Forest Classifier model is 0.7885466545
+
+•	The Confusion Matrix generated from this model:
+![image](https://user-images.githubusercontent.com/95320265/165587923-61a0b795-ff77-4fc5-b88e-807cae667161.png)
+
+•	The Imbalanced Classification Report from this model:
+![Uploading image.png…]()
+
+
+
 
 
 
